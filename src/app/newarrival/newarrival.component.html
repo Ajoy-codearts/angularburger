@@ -1,0 +1,13 @@
+<section class="custom-newArival">
+    <div class="container">
+        <div class="row arrived-items">
+            <div class="arrived-item" *ngFor="let i of arriveditem">
+                <img src="../../assets/image/{{i.imgpath}}" alt="">
+                <div class="item-content">
+                    <h3>{{i.text1}}</h3>
+                    <h2>{{i.text2}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

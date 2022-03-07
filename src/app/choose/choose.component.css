@@ -1,0 +1,50 @@
+.choose {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.choose .choose-top {
+  margin-bottom: 50px;
+}
+
+.choose .choose-top .container a {
+  text-decoration: none;
+  background-color: #ffc045;
+  padding: 9px 12px 9px 12px;
+  color: #3d2514;
+  font-family: 'Oswald';
+}
+
+.choose .choose-top .container h3 {
+  font-size: 50px;
+  font-family: 'Oswald';
+  margin: 0;
+}
+
+.choose .choose-top .container p {
+  color: #3d2514;
+  font-family: poppins;
+  font-weight: 400;
+}
+
+.choose .row.choose-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choose .row.choose-bottom .choose-items {
+  width: 24%;
+}
+
+.choose .row.choose-bottom .choose-items img {
+  width: 100%;
+}
+/*# sourceMappingURL=choose.component.css.map */

@@ -1,0 +1,38 @@
+.choose{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    .choose-top{
+        margin-bottom: 50px;
+        .container{
+            a{
+                text-decoration: none;
+                background-color: #ffc045;
+                padding: 9px 12px 9px 12px;
+                color: #3d2514;
+                font-family: 'Oswald';
+            }
+            h3{
+                font-size: 50px;
+                font-family: 'Oswald';
+                margin: 0
+            }
+            p{
+                color: #3d2514;
+                font-family: poppins;
+                font-weight: 400;
+            }
+        }
+    }
+    .row.choose-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .choose-items {
+            width: 24%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+ }
