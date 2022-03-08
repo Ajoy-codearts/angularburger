@@ -1,14 +1,15 @@
 .choose {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   text-align: center;
+  padding-bottom: 150px;
 }
 
-.choose .choose-top {
+.choose .container .choose-top {
   margin-bottom: 50px;
 }
 
-.choose .choose-top .container a {
+.choose .container .choose-top a {
   text-decoration: none;
   background-color: #ffc045;
   padding: 9px 12px 9px 12px;
@@ -16,19 +17,20 @@
   font-family: 'Oswald';
 }
 
-.choose .choose-top .container h3 {
+.choose .container .choose-top h3 {
   font-size: 50px;
   font-family: 'Oswald';
   margin: 0;
+  margin-top: 40px;
 }
 
-.choose .choose-top .container p {
+.choose .container .choose-top p {
   color: #3d2514;
   font-family: poppins;
   font-weight: 400;
 }
 
-.choose .row.choose-bottom {
+.choose .container .row.choose-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,11 +42,39 @@
           align-items: center;
 }
 
-.choose .row.choose-bottom .choose-items {
-  width: 24%;
+.choose .container .row.choose-bottom .choose-items {
+  width: 30%;
 }
 
-.choose .row.choose-bottom .choose-items img {
-  width: 100%;
+.choose .container .row.choose-bottom .choose-items img {
+  width: 360px;
+  height: 270px;
+}
+
+.choose .container .row.choose-bottom .choose-items h4 {
+  font-size: 37px;
+  color: #3d2514;
+  font-family: Oswald;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.choose .container .row.choose-bottom .choose-items p {
+  font-size: 16px;
+  color: #3d3d3d;
+  font-family: poppins;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 68px;
+}
+
+.choose .container .row.choose-bottom .choose-items a {
+  text-decoration: none;
+  padding: 15px 38px 15px 37px;
+  background-color: #bf2222;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 700;
 }
 /*# sourceMappingURL=choose.component.css.map */

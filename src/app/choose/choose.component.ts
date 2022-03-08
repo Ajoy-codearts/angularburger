@@ -13,19 +13,22 @@ export class ChooseComponent implements OnInit {
   }
   chooselist=[
     {
-      path:"img9.png",
+      path:"image9.png",
       text1:"Lorem ipsum dolor",
-      text2:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat numquam laborum eos nemo"
+      text2:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat numquam laborum eos nemo",
+      text3:"ORDER NOW"
     },
     {
-      path:"img10.png",
+      path:"image10.png",
       text1:"Lorem ipsum dolor",
-      text2:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat numquam laborum eos nemo"
+      text2:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat numquam laborum eos nemo",
+      text3:"ORDER NOW"
     },
     {
-      path:"img11.png",
+      path:"image11.png",
       text1:"Lorem ipsum dolor",
-      text2:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat numquam laborum eos nemo"
+      text2:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat numquam laborum eos nemo",
+      text3:"ORDER NOW"
     }
   ]
 }

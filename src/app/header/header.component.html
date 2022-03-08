@@ -19,7 +19,18 @@
                         </ul>
                     </div>
                 </div>
+                <div class="header-menu-bar" >
+                    <p (click)="expand()">|</p>
+                </div>
             </div>
+        </div>
+        <div class="hambar-menu-items" [class.menuShow]="menuFlag">
+            <ul class="hambar-menu-item">
+                <li class="ham-menu-item">HOME</li>
+                <li class="ham-menu-item">MENU</li>
+                <li class="ham-menu-item">OUR STORY</li>
+                <li class="ham-menu-item">CONTACT US</li>
+            </ul>
         </div>
     </div>
 </header>

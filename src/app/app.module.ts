@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { BannerComponent } from './banner/banner.component';
 import { NewarrivalComponent } from './newarrival/newarrival.component';
 import { ChooseComponent } from './choose/choose.component';
+import { UpcomingComponent } from './upcoming/upcoming.component';
+import { BookComponent } from './book/book.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { ChooseComponent } from './choose/choose.component';
     BannerComponent,
     NewarrivalComponent,
     ChooseComponent,
+    UpcomingComponent,
+    BookComponent,
   ],
   imports: [
     BrowserModule,

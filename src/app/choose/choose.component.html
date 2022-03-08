@@ -1,16 +1,19 @@
 <section class="choose">
-    <div class="choose-top">
-        <div class="container">
+    <div class="container">
+        <div class="choose-top">
             <a href="#">ALWAYS TASTY BURGER</a>
             <h3>CHOOSE & ENJOY</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat numquam laborum eos nemo sequi rem dolorem necessitatibus excepturi exercitationem adipisci quis ipsa iste, corrupti maiores molestias, quam debitis animi officiis.</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat numquam laborum eos nemo sequi rem dolorem necessitatibus excepturi exercitationem adipisci quis ipsa iste, corrupti maiores molestias, quam debitis animi officiis.
+            </p>
         </div>
-    </div>
     <div class="row choose-bottom">
         <div class="choose-items" *ngFor="let i of chooselist">
             <img src="../../assets/image/{{i.path}}" alt="">
             <h4>{{i.text1}}</h4>
             <p>{{i.text2}}</p>
+            <a href="#">{{i.text3}}</a>
         </div>
+    </div>
     </div>
 </section>

@@ -1,0 +1,92 @@
+.book {
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.book .row.book-wraper .book-content-img-left {
+  width: 20%;
+  position: relative;
+}
+
+.book .row.book-wraper .book-content-img-left img#content-img1 {
+  width: 100%;
+  position: absolute;
+  top: -78px;
+  left: 0;
+}
+
+.book .row.book-wraper .book-content-img-left img#content-img2 {
+  width: 100%;
+  position: absolute;
+  bottom: -147px;
+  right: -87px;
+}
+
+.book .row.book-wraper .book-content-center {
+  width: 60%;
+  text-align: center;
+}
+
+.book .row.book-wraper .book-content-center .container h3 {
+  font-size: 28px;
+  font-family: 'Oswald';
+  font-weight: 400;
+  color: #3d2514;
+  margin: 0;
+}
+
+.book .row.book-wraper .book-content-center .container h2 {
+  font-size: 49px;
+  font-family: Oswald;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+.book .row.book-wraper .book-content-center .content .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.book .row.book-wraper .book-content-center .content .row .form-content {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.book .row.book-wraper .book-content-center .content .row .form-content .form-content-item {
+  margin: 0px 25px 25px 0px;
+}
+
+.book .row.book-wraper .book-content-center .content .row .form-content .form-content-item input {
+  width: 353px;
+  height: 65px;
+  font-size: 20px;
+  font-family: Oswald;
+  color: #3d3d3d;
+  padding-left: 22px;
+}
+
+.book .row.book-wraper .book-content-center .content .row .form-content .form-content-item #content-form-button {
+  margin-bottom: 1px;
+  background-color: #bf2222;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.book .row.book-wraper .book-content-img-right {
+  width: 20%;
+  position: relative;
+}
+
+.book .row.book-wraper .book-content-img-right img {
+  width: 100%;
+  position: absolute;
+  top: 146px;
+  right: 0;
+}
+/*# sourceMappingURL=book.component.css.map */

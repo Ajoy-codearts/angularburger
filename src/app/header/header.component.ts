@@ -12,6 +12,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
   flag:boolean=false;
+  menuFlag:boolean=false;
+
+  expand(){
+    this.menuFlag=!this.menuFlag;
+  }
+
+
  @HostListener("document:scroll")
  scrollfunction(){
    if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){

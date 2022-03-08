@@ -89,7 +89,7 @@
     font-size: 19px !important;
   }
   .container .banner-content .content-text p:before {
-    top: -6px;
+    top: -6px !important;
     width: 426px !important;
   }
   .container .banner-content .content-text h1 {
@@ -100,7 +100,27 @@
   }
 }
 
+@media only screen and (max-width: 820px) {
+  .container .banner-content .content-text p {
+    font-size: 17px !important;
+  }
+  .container .banner-content .content-text p:before {
+    top: -10px !important;
+    width: 378px !important;
+  }
+  .container .banner-content .content-text h1 {
+    font-size: 105px !important;
+  }
+  .container .banner-content .content-img {
+    width: 48% !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
+  .container .banner-content .content-text {
+    top: 180px !important;
+    left: 73px !important;
+  }
   .container .banner-content .content-text p {
     font-size: 15px !important;
   }
@@ -109,26 +129,38 @@
     width: 341px !important;
   }
   .container .banner-content .content-text h1 {
-    font-size: 113px !important;
+    font-size: 103px !important;
   }
   .container .banner-content .content-img {
-    width: 48% !important;
+    width: 78% !important;
+    top: 453px !important;
+    right: 14px !important;
   }
 }
 
 @media only screen and (max-width: 548px) {
+  .container .banner-content .content-text {
+    top: 135px !important;
+    left: 27px !important;
+  }
   .container .banner-content .content-text p {
     font-size: 13px !important;
   }
   .container .banner-content .content-text p:before {
     top: -10px !important;
-    width: 341px !important;
+    width: 278px !important;
+    height: 56px !important;
   }
   .container .banner-content .content-text h1 {
-    font-size: 113px !important;
+    font-size: 95px !important;
+  }
+  .container .banner-content .content-text h3 {
+    font-size: 52px !important;
   }
   .container .banner-content .content-img {
-    width: 48% !important;
+    width: 87% !important;
+    top: 394px !important;
+    right: 55px !important;
   }
 }
 /*# sourceMappingURL=banner.component.css.map */
